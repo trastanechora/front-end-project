@@ -15,7 +15,6 @@ body {
 }
 
 .header2 {
-    /* position: fixed; */
     width: 100%;
     top: 0;
     z-index: 99;
@@ -125,7 +124,6 @@ section .banner-element #profile-img {
 .content-wrapper table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-
 /* Content home end here */
 
 /* Content galery start here */
@@ -141,8 +139,6 @@ section .banner-element #profile-img {
     width: 70%;
     margin-right: auto;
     margin-left: auto;
-    /* border: 5px solid grey; */
-    /* height: 1000px; */
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -153,23 +149,14 @@ section .banner-element #profile-img {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    /* padding: 20px 0 38px 0; */
     margin-bottom: 38px;
     max-width: 100%;
     border-radius: 30px;
 }
 
-/* .galery-photo1 {
-    background-image: url("../img/exp-gallery/jake-allison-1322894-unsplash.jpg") 50% 50% no-repeat;
-    width: 250px;
-    height: 250px;
-} */
-
 /* Content galery end here */
 
-/* Footer end here */
-
-/* Contact page start here */
+/* Footer start here */
 footer {
     background-color: #19345E;
     height: 207px;
@@ -213,15 +200,6 @@ button {
     color: white;
     background-color: orangered;
 }
-
-/* .universe {
-    display: table;
-} */
-
-/* .left, .right {
-    display: table-cell;
-    vertical-align: middle;
-} */
 
 .left {
     background-image: linear-gradient(
@@ -287,9 +265,11 @@ form {
 button#submit.form-control.contact-button:hover {
     background-color: transparent;
     color: black;
-    /* border: 3px solid black; */
 }
 
+form label {
+    margin-top: 30px;
+}
 /* Contact page end here */
 
 
@@ -320,9 +300,5 @@ button#submit.form-control.contact-button:hover {
   50%  {color:red; left:0; top:0;}
   75%  {color:white; left:0px; top:500;}
   100% {color:orangered; left:0px; top:0px;}
-}
-
-form label {
-    margin-top: 30px;
 }
 
